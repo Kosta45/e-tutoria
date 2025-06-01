@@ -439,20 +439,235 @@ ul {
   color: #000;
 }
 
+.cooperate-list-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
 .main-cooperate-list {
   display: flex;
   align-items: center;
   gap: 36px;
   padding-bottom: 80px;
-
-  /* animation: scroll-logos 14s linear infinite; */
+  width: max-content;
+  animation: scroll-logos 18s linear infinite;
 }
 
-/* @keyframes scroll-logos {
+.main-cooperate-item {
+  flex: 0 0 auto;
+}
+
+@keyframes scroll-logos {
   0% {
     transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);
   }
-} */
+}
+
+.main-business-section {
+  display: flex;
+  gap: 72px;
+  margin-bottom: 70px;
+}
+
+.main-business-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding-block: 67px;
+  max-width: 636px;
+}
+
+.main-business-text {
+  max-width: 568px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  color: #000;
+}
+
+.main-business-link {
+  align-self: start;
+}
+
+.business-images-wrapper {
+  background-color: #bababa;
+  display: inline-block;
+  width: fit-content;
+  max-height: 412px;
+}
+
+.business-images-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background-color: transparent;
+}
+
+.business-images-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  min-width: 196px;
+  min-height: 136px;
+  background-color: #fff;
+}
+
+.main-subscription-section {
+  background-color: #dbf3ed;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.main-subscription-title {
+  padding-block: 80px 40px;
+  text-align: center;
+}
+
+.main-subscription-list {
+  display: flex;
+  gap: 24px;
+}
+
+.subscription-list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 56px;
+  background-color: #fdfdfd;
+  border: 1px solid #0f8277;
+  border-radius: 24px;
+  max-width: 416px;
+}
+
+.subscription-item-accent {
+  background-color: #0f8277;
+}
+
+.subscription-list-item:nth-child(1) .subscription-duration {
+  margin-bottom: 75px;
+}
+.subscription-list-item:nth-child(2) .subscription-duration {
+  margin-bottom: 27px;
+}
+.subscription-list-item:nth-child(3) .subscription-duration {
+  margin-bottom: 46px;
+}
+
+.subscription-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+  margin: 0 0 27px;
+}
+
+.subscription-title-accent {
+  color: #ffffff;
+}
+
+.subscription-item-subtitle {
+  margin: 0 0 27px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+  text-align: center;
+}
+
+.subscription-subtitle-accent {
+  color: #ffffff;
+}
+
+.subscription-duration {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscription-duration-price {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.subscription-duration-time {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.subscription-duration-accent {
+  color: #ffffff;
+}
+
+.subscription-item-link {
+  border-radius: 4px;
+  border: 2px solid #fff;
+}
+
+.subscription-separator {
+  border-top: 2px solid #0f8277;
+  margin-block: 48px;
+}
+
+.subscription-separator-accent {
+  border-top: 2px solid #ffffff;
+}
+
+.subscription-item-link {
+  align-self: center;
+}
+
+.subscription-advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.subscription-advantages-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.subscription-advantages-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000;
+  margin: 0;
+  max-width: 264px;
+}
+
+.subscription-advantages-accent {
+  color: #ffffff;
+}
+
+.subscription-advantages-icon,
+.advantages-icon-accent {
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
+
+.subscription-advantages-icon {
+  background: url("../images/icons/check.svg");
+}
+
+.advantages-icon-accent {
+  background: url("../images/icons/check-accent.svg");
+}
