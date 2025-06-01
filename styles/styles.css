@@ -814,5 +814,23 @@ ul {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
-  margin-bottom: 60px;
+  padding-top: 10px;
+  margin-bottom: 64px;
+}
+
+.footer-socials-link {
+  width: 32px;
+  height: 32px;
+  padding: 16px;
+}
+
+.socials-link-instagram {
+  background: url("../images/icons/instagram-icon.svg") no-repeat center;
+}
+
+.socials-link-facebook {
+  background: url("../images/icons/facebook-icon.svg") no-repeat center;
+}
+.socials-link-linkedin {
+  background: url("../images/icons/linkedin-icon.svg") no-repeat center;
 }
