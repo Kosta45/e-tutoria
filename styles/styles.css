@@ -671,3 +671,148 @@ ul {
 .advantages-icon-accent {
   background: url("../images/icons/check-accent.svg");
 }
+
+.main-photos-section {
+  margin-bottom: 76px;
+}
+
+.main-photos-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-photos-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.photos-item-big {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.main-appeal-section {
+  background: url("../images/backgrounds/background-form.jpg") no-repeat center;
+  min-height: 727px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-appeal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.main-appeal-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+
+  max-width: 565px;
+  margin-inline: auto;
+  background-color: #dbf3ed;
+  border-radius: 24px;
+  gap: 24px;
+}
+
+.appeal-form-list {
+  display: grid;
+  gap: 24px;
+}
+
+.appeal-form-item {
+  display: grid;
+  gap: 8px;
+}
+
+.main-appeal-title {
+  text-align: center;
+  padding-block: 30px 0px;
+}
+
+.main-appeal-subtitle {
+  max-width: 505px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.appeal-form-list {
+  padding-inline: 30px;
+}
+
+.appeal-form-label {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 109%;
+  color: #000;
+}
+
+.appeal-form-input,
+.appeal-form-textarea {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8e8e8e;
+
+  border: 1px solid #0f8277;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.main-appeal-btn {
+  align-self: self-start;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-inline: 77px;
+}
+
+.footer {
+  min-width: 1368px;
+  background-color: #f1f1f1;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 36px;
+}
+
+.footer-logo-info {
+  max-width: 306px;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.footer-logo-text,
+.footer-socials-rights {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000;
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  margin-bottom: 60px;
+}
